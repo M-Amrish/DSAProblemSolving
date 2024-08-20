@@ -1,4 +1,4 @@
-package ArrayProblems.LeetCode_121;
+package Leetcode_Problems.LeetCode_121;
 
 public class MaxProfit {
     public int maxProfit(int[] prices) {

@@ -1,4 +1,4 @@
-package ArrayProblems.LeetCode_1299;
+package Leetcode_Problems.LeetCode_1299;
 
 public class ReplaceElements {
     public int[] replaceElements(int[] arr) {

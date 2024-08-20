@@ -1,4 +1,4 @@
-package ArrayProblems.Leetcode_724;
+package Leetcode_Problems.Leetcode_724;
 
 class FindPivotIndex {
     public int pivotIndex(int[] nums) {

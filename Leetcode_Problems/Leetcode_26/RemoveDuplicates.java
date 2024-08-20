@@ -1,4 +1,4 @@
-package ArrayProblems.Leetcode_26;
+package Leetcode_Problems.Leetcode_26;
 
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
