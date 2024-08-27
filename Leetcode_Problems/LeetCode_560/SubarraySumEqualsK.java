@@ -3,7 +3,7 @@ package Leetcode_Problems.LeetCode_560;
 import java.util.HashMap;
 
 public class SubarraySumEqualsK {
-    public int subarraySum(int[] nums, int k) {
+    public int subarray_Sum(int[] nums, int k) {
 
         int psum = 0;
         int sum =0;
