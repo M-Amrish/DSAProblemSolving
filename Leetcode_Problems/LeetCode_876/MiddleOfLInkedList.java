@@ -1,6 +1,5 @@
 package Leetcode_Problems.LeetCode_876;
 
-import java.util.List;
 
 class ListNode{
     int val;
