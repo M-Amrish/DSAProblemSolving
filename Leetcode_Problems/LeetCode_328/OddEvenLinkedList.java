@@ -2,7 +2,6 @@ package Leetcode_Problems.LeetCode_328;
 class ListNode{
     int val;
     ListNode next;
-
     ListNode(int x){
         val = x;
     }
@@ -26,7 +25,6 @@ public class OddEvenLinkedList {
 
         }
         odd.next = evenHead;
-
 
         return head;
 
