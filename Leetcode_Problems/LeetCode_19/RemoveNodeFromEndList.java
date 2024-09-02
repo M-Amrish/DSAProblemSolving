@@ -23,10 +23,11 @@ public class RemoveNodeFromEndList {
             count++;
         }
 
-        if(count ==1 && n ==1){
+        if(count == 1){  // if len if 1 then return null bcz the single node will be deleted
             return null;
-        }else if(count == 2 ){
-            head.next = null;
+        }
+        if(count == n){ // if len if n then we have to delete the head, so move head to next posi and return
+            head= head.next;
             return head;
         }
 
