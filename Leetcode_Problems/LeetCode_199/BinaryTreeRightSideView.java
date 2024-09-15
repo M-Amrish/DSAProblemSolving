@@ -1,7 +1,9 @@
 package Leetcode_Problems.LeetCode_199;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 class TreeNode {
      int val;
@@ -24,7 +26,7 @@ public class BinaryTreeRightSideView {
 
         if(root == null) return al;
 
-        Queue<TreeNode>  q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
 
         q.add(root);
 
