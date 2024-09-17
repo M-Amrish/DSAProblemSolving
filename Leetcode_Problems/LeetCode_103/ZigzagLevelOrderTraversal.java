@@ -21,7 +21,6 @@ class TreeNode {
   }
 
 public class ZigzagLevelOrderTraversal {
-
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 
         List<List<Integer>> result = new ArrayList<>();
@@ -61,10 +60,8 @@ public class ZigzagLevelOrderTraversal {
 
             result.add(al);
             cnt++;
-
         }
 
         return result;
-
     }
     }
