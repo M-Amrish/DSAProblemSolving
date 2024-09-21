@@ -16,7 +16,9 @@ public class OddEvenLinkedList {
 
         ListNode evenHead = head.next;
 
+        //checking even node is not null and even next node is not null
         while(even != null && even.next != null){
+
             odd.next = odd.next.next;
             even.next = even.next.next;
 
@@ -26,6 +28,7 @@ public class OddEvenLinkedList {
         }
         odd.next = evenHead;
 
+        // return head
         return head;
 
     }

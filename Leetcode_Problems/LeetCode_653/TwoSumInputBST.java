@@ -3,7 +3,7 @@ package Leetcode_Problems.LeetCode_653;
 import java.util.HashSet;
 
 class TreeNode {
-      int val;
+         int val;
       TreeNode left;
       TreeNode right;
       TreeNode() {}
